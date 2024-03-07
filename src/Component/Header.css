@@ -1,0 +1,75 @@
+.header-section {
+    width: 100%;
+    height: 15%;
+    background-color: #15181f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo-text {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: xx-large;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.new-task-button {
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    transition: all 0.1s ease-in;
+    background-color: #0cbe36;
+    color: white;
+}
+
+.new-task-button:hover {
+    transform: scale(1.04);
+}
+
+
+.new-task-button svg {
+    margin-right: 5px;
+}
+
+.task-form {
+    font-family: "Poppins", sans-serif;
+    font-size: smaller;
+}
+
+.title-input {
+   
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    width: 16rem;
+}
+
+.task-form textarea {
+   
+    width: 16rem;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+}
+
+.date-category-div {
+    width: max-content;
+    border-radius: 5px;
+}
+
+.add-button {
+    padding: 0.4rem 2rem;
+    background-color: #0cbe36;
+    color: white;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+}
